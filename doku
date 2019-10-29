@@ -1,4 +1,4 @@
-Ionic installieren:
+Ionic, Cordova und node.js installieren:
  
 nach Dokus von: https://computingforgeeks.com/how-to-install-nodejs-on-ubuntu-debian-linux-mint/
                 https://ionicframework.com/docs/v3/intro/installation/
@@ -8,12 +8,15 @@ nach Dokus von: https://computingforgeeks.com/how-to-install-nodejs-on-ubuntu-de
 $ sudo apt update
 
 2.
+(notwendiger Schritt)
 $ sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
 
 3.
+(installieren von node.js)
 $ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 4.
+(installieren von Ionic und Cordova)
 $ npm install -g ionic cordova
 
 5.
@@ -25,6 +28,6 @@ $ ionic start helloWorld blank --type=ionic-angular
 $ cd helloWorld
 
 7.
-(startet eine Browser Applikation)
+(startet eine Browser Applikation von Ionic)
 $ ionic serve
 
